@@ -3,6 +3,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+body {
+  background-color: #d4dded;
+}
+
+.Anun {
+  color: #ed2592;
+}
+
+.bottombar {
+  background-color: #bccde9;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

@@ -60,15 +60,24 @@ export default function Singin() {
   return (
     <div>
       <div className="flex items-center justify-center p-50 colu">
-        <div className='items-center justify-center p-10 border rounded-lg w-250 bg-black'>
-          <div className='b1 items-center justify-center'>
+        <div className='items-center justify-center p-10 border rounded-lg w-250 bg-white'>
+          <div className='flex mb-5 b1 items-center justify-center'>
             <Image src={Logo} alt="Logo" width={350} height={100} />
           </div>
 
-          <div className='text-white text-center'>
-            <p>Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas</p>
-            <p>Conheça novas pessoas através de amigos de seus amigos e comunidades</p>
-            <p>Compartilhe seus vídeos, fotos e paixôes em um só lugar</p>
+          <div className='text-center'>
+            <div className="flex items-center justify-center">
+              <p className="Anun mr-1">Conecta-se</p>
+              <p>aos seus amigos e familiares usando recados e mensagens instantâneas</p>
+            </div>
+            <div className="flex items-center justify-center">
+              <p className="Anun mr-1">Conheça</p>
+              <p>novas pessoas através de amigos de seus amigos e comunidades</p>
+            </div>
+            <div className="flex items-center justify-center">
+              <p className="Anun mr-1">Compartilhe</p>
+              <p>seus vídeos, fotos e paixôes em um só lugar</p>
+            </div>
           </div>
         </div>
 
@@ -143,7 +152,7 @@ export default function Singin() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center text-center gap-2 mt-6">
+      <div className="bottombar flex items-center justify-center text-center gap-2 mt-6">
         <p>@ 2025 Orkut -</p>
         <Button onClick={aboutus} type='button' variant="link">Sobre nós</Button>
         <Button type='button' variant="link">Centro de Segurança</Button>
